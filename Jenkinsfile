@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/ST2DCE/2024-2025'
+                git 'https://github.com/Serquand/TestSomething'
             }
         }
         stage('Build Docker Image') {
